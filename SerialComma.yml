@@ -1,0 +1,6 @@
+extends: existence
+message: "Use the serial (Oxford) comma in '%s'."
+scope: sentence
+level: warning
+tokens:
+  - '(?:[^,]+,){1,}\s\w+\s(?:and|or)'

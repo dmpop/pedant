@@ -1,0 +1,7 @@
+extends: existence
+message: "Use International English spelling instead of '%s'."
+ignorecase: true
+level: warning
+tokens:
+  - '(?:\w+)nised?'
+  - '(?:\w+)logue'
