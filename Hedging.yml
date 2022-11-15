@@ -5,8 +5,6 @@ level: warning
 tokens:
   - appear to be
   - arguably
-  - could
-  - should
   - in general
   - likely
   - might
@@ -17,4 +15,4 @@ tokens:
   - seem(s)?
   - somewhat
   - unlikely
-  - usually
+  
