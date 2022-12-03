@@ -1,7 +1,7 @@
 extends: occurrence
-message: "More than 3 commas. Consider rewriting the sentence."
+message: "More than 5 commas. Consider rewriting the sentence."
 level: warning
 scope: sentence
 ignorecase: false
-max: 3
+max: 5
 token: ','
