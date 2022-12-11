@@ -1,4 +1,4 @@
-# Pedant style guide
+# Tech pub style style guide
 
 A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software and for anyone writing about Open Source.
 
@@ -50,10 +50,10 @@ Instead of _/usr/local/bin_, you can move the binary to any directory that is in
 brew install vale
 ```
 
-# Install Pedant
+# Install Tech pub style
 
 1. Create the _styles_ directory: `mkdir $HOME/styles`
-2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/pedant.git`
+2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/techpubstyle.git`
 
 ## Create configuration file
 
@@ -70,7 +70,7 @@ MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
 [*.{md,txt,adoc}]
-BasedOnStyles = pedant
+BasedOnStyles = techpubstyle
 ```
 
 Save the changes.
@@ -87,9 +87,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/suse2022-ns/xhtml/docbook.xsl
-BasedOnStyles = pedant
+BasedOnStyles = techpubstyle
 [*.{md,txt,adoc}]
-BasedOnStyles = pedant
+BasedOnStyles = techpubstyle
 ```
 
 3. Save the changes.
@@ -106,9 +106,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl
-BasedOnStyles = pedant
+BasedOnStyles = techpubstyle
 [*.{md,txt,adoc}]
-BasedOnStyles = pedant
+BasedOnStyles = techpubstyle
 ```
 
 3. Save the changes.
@@ -122,17 +122,17 @@ In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/er
 
 In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Path**.
 
-## Updating Pedant
+## Updating Tech pub style
 
-Switch to the _pedant_ directory and run the `git pull` command.
+Switch to the _techpubstyle_ directory and run the `git pull` command.
 
 ## Problems?
 
-Please report bugs and issues in the [Issues](https://github.com/dmpop/pedant/issues) section.
+Please report bugs and issues in the [Issues](https://github.com/dmpop/techpubstyle/issues) section.
 
 ## Contribute
 
-If you've found an error, or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/pedant/issues) section.
+If you've found an error, or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/techpubstyle/issues) section.
 
 To add a new feature or fix issues yourself, proceed as follows.
 
